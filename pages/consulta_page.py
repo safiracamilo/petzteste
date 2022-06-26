@@ -23,3 +23,4 @@ class ConsultaPage(BasePage):
 
     # def encontrartext(self):
     # return self._encontrartext(self._get_text)
+
