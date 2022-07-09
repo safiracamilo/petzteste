@@ -14,7 +14,7 @@ class BasePage():
     def _entrar(self, url):
         url = 'https://www.petz.com.br'
         self.driver.get(url)
-
+    
     def _encontrar(self, locator):
         return self.driver.find_element(locator['by'], locator['value'])
 
